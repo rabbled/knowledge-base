@@ -12,8 +12,7 @@ cascade:
     <img src="/images/R3-Render.png" class="m-0 " alt="DumaOS 4">
   </div>
   <div class="flex-1 flex flex-col gap-2">
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
+    <div>Our most powerful gaming router yet, the Netduma R3 is packed with gaming features built to empower your play. With vivid customisable RGB, superfast Wi-Fi 6 and next-level ping optimisation, the R3 is the perfect device to reduce lag and stabilise your gameplay.</div>
   </div>
 </div>
 
@@ -24,25 +23,22 @@ cascade:
     subtitle="Frequently Asked Questions about DumaOS 4 on the Netduma R3" 
     image="/images/dumaos4-devicemanager.jpg"
   >}}
-    {{< netduma/button icon="network-activity" buttonColor="primary" text="DumaOS 4 Guides" link="/docs/dumaos-4/" >}}
+    {{< netduma/button icon="network-activity" buttonColor="primary" text="View all FAQs" link="/docs/dumaos-4/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"
-    title="User Manual" 
-    subtitle="User manuals for DumaOS compatible hardware" 
-    class="bg-[white]"
+    title="DumaOS 4 Guides" 
+    subtitle="The latest version of DumaOS, featuring groundbreaking new features like SmartBOOST and Geo-Filter 2.0."
   >}}
-    {{< netduma/button buttonColor="primary" text="View" link="user-manual" >}}
+    {{< netduma/button buttonColor="primary" text="View all Guides" link="/docs/dumaos-4/" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"
-    title="Firmware" 
-    subtitle="A short paragraph about the latest firmware update to go here. Perhaps with some additional comments." 
-    class="bg-[white]"
+    title="Firmware"
   >}}
     {{< netduma/card-links >}}
-      {{< netduma/card-link title="Release Notes" link="/firmwares/netduma-r3/" >}}
+      {{< netduma/card-link title="Release Notes" link="/platforms/netduma-r3/firmware/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="https://forum.netduma.com/topic/57039-new-r3-firmware-dumaos-40290/" buttonColor="primary" text="v.4.0.290" >}}
+    {{< netduma/button link="https://forum.netduma.com/topic/58012-new-r3-firmware-dumaos-40540/" buttonColor="primary" text="v.4.0.540" >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}

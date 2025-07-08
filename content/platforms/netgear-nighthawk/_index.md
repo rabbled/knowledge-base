@@ -7,34 +7,19 @@ cascade:
   type: docs
 ---
 
-<div class="flex gap-8 mt-4 mb-16">
-  <div class="flex-1 basis-1/5">
-    <img src="/images/R2-Render.png" class="m-0 " alt="DumaOS 4">
-  </div>
-  <div class="flex-1 flex flex-col gap-2">
-    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-    {{< netduma/button class="mt-2" buttonColor="primary" text="Button here" link="#" >}}
-  </div>
-</div>
-
-{{< netduma/cards cols="6">}}
+{{< netduma/cards cols="6" class="mt-6">}}
   {{< netduma/card
     span="2"
     title="User Manual" 
-    subtitle="User manuals for DumaOS compatible hardware" 
-    class="bg-[white]"
+    subtitle="User manuals for DumaOS compatible Netgear Nighthawk routers" 
   >}}
-    {{< netduma/button buttonColor="primary" text="View" link="../docs/user-manuals/" >}}
+    {{< netduma/button buttonColor="primary" text="View" link="user-manual" >}}
   {{< /netduma/card >}}
   {{< netduma/card
     span="2"
     title="Firmware" 
-    subtitle="A short paragraph about the latest firmware update to go here. Perhaps with some additional comments." 
-    class="bg-[white]"
+    subtitle="Netgear Nighthawk firmwares are available for a range of routers: XR300, XR450, XR500, XR700 and XR1000 (v1 and v2)." 
   >}}
-    {{< netduma/card-links >}}
-      {{< netduma/card-link title="Release Notes" link="/firmwares/netduma-r2/" >}}
-    {{< /netduma/card-links >}}
-    {{< netduma/button link="https://forum.netduma.com/topic/57039-new-r3-firmware-dumaos-40290/" buttonColor="primary" text="v.4.0.290" >}}
+    {{< netduma/button link="firmware" buttonColor="primary" text="View Firmwares" >}}
   {{< /netduma/card >}}
 {{< /netduma/cards >}}

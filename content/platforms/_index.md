@@ -53,7 +53,7 @@ type: netduma-wide
   >}}
     {{< netduma/card-links >}}
       {{< netduma/card-link title="Firmwares" link="netgear-nighthawk/firmware/" >}}
-      {{< netduma/card-link title="User Manual" link="#" >}}
+      {{< netduma/card-link title="User Manual" link="netgear-nighthawk/user-manual/" >}}
       {{< netduma/card-link title="DumaOS 3 FAQs" link="/frequently-asked-questions/dumaos3/" >}}
     {{< /netduma/card-links >}}
     {{< netduma/button link="/platforms/netgear-nighthawk" buttonColor="primary" text="View More" >}}
