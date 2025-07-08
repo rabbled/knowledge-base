@@ -53,6 +53,9 @@ type: netduma-wide
     {{< /netduma/card-links >}}
     {{< netduma/button link="/docs/telstra-internet-optimiser" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
+  {{< netduma/card span="6" title="Supported Applications" subtitle="See which applications are supported by DumaOS" >}}
+    {{< netduma/button link="supported-applications" buttonColor="primary" text="View Supported Applications" >}}
+  {{< /netduma/card >}}  
 {{< /netduma/cards >}}
 
 {{< callout icon="r3" >}}
