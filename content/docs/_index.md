@@ -38,7 +38,7 @@ type: netduma-wide
       {{< netduma/card-link icon="network-activity" title="Dashboard and Network Monitor" link="/docs/dumaos-3/dashboard/" >}}
       {{< netduma/card-link icon="network-activity" title="Hybrid VPN" link="/docs/dumaos-3/hybrid-vpn/" >}}
     {{< /netduma/card-links >}}
-    {{< netduma/button link="/docs/dumaos-4" buttonColor="primary" text="View More" >}}
+    {{< netduma/button link="/docs/dumaos-3" buttonColor="primary" text="View More" >}}
   {{< /netduma/card >}}
   {{< netduma/card span="2" title="Telstra Internet Optimiser" subtitle="Using the guides below, you can take full advantage of DumaOS and give yourself the best connection possible for gaming." image="/images/dumaos-telstra.jpg" >}}
     {{< netduma/card-links >}}
