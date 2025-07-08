@@ -1,0 +1,40 @@
+{{- $section    := .Get "section"    -}}
+{{- $subsection := .Get "subsection" -}}
+{{- $limit      := (.Get "limit" | default "0" | int) -}}
+
+{{- /* Build path, pick pages */ -}}
+{{- $path := "" -}}
+{{- if and $section $subsection -}}
+  {{- $path = printf "%s/%s" $section $subsection -}}
+{{- else if $section -}}
+  {{- $path = $section -}}
+{{- else if $subsection -}}
+  {{- $path = $subsection -}}
+{{- end -}}
+
+{{- $pages := slice -}}
+{{- if $path -}}
+  {{ with .Site.GetPage $path }}
+    {{- $pages = .RegularPagesRecursive -}}
+  {{ end }}
+{{- else -}}
+  {{- $pages = .Page.RegularPagesRecursive -}}
+{{- end -}}
+
+{{- /* Apply limit if requested */ -}}
+{{- if gt $limit 0 -}}
+  {{- $pages = first $limit $pages -}}
+{{- end -}}
+
+<div class="flex flex-col border-t-[1px] border-white/20 -mx-6 pt-4">
+  {{- range $pages }}
+    <a class="no-underline text-text-secondary hover:text-text-primary flex py-2 pl-6 pr-4 gap-3 transition-colors group/item"
+       href="{{ .RelPermalink }}">
+      {{ .LinkTitle }}
+      <svg class="ml-auto shrink-0 group-hover/item:text-text-primary transition-colors"
+           width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8 16.4725L12.9446 11.5L8 6.5275L9.5223 5L16 11.5L9.5223 18L8 16.4725Z"/>
+      </svg>
+    </a>
+  {{- end }}
+</div>
