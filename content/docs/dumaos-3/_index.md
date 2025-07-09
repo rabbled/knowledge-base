@@ -5,7 +5,11 @@ toc: false
 
 ---
 
-The version of DumaOS which shipped with the __Netduma R2__ and __NETGEAR Nighthawk Pro Gaming__ routers. You can find Guides for DumaOS 4 [here](/docs/dumaos-4).
+The version of DumaOS which shipped with the __Netduma R2__ and __NETGEAR Nighthawk Pro Gaming__ routers. 
+
+{{< callout >}}
+  You can find Guides for DumaOS 4 [here](/docs/dumaos-4).
+{{< /callout >}}
 
 {{< netduma/cards class="my-6" cols="6">}}
   {{< netduma/card span="3" title="Getting Started" subtitle="Get the latest updates for DumaOS 3" >}}
