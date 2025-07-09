@@ -228,11 +228,11 @@ main > div:first-child:not(.content) {
     border: none;
 }
 
-.content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
+.content :where(p):not(:where([class~=not-prose],[class~=not-prose] *)):is(html[class~="dark"] *) {
     color: rgb(255 255 255 / 0.8);
     line-height: 1.4;
 }
 
-hr {
+hr:is(html[class~="dark"] *) {
     border-color: hsla(0, 0%, 100%, 0.2);
 }
