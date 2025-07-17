@@ -158,6 +158,7 @@ body:is(html[class~="dark"] *) {
     padding: 0;
 }
 
+/* TODO: Add a class for this upstream */
 .hextra-toc > div > div {
     box-shadow: none !important;
     background: transparent !important;
@@ -165,6 +166,7 @@ body:is(html[class~="dark"] *) {
 }
 
 /* breadcrumbs */
+/* TODO: Add a class for this upstream */
 main > div:first-child:not(.content) {
     margin-bottom: 2rem;
 }
