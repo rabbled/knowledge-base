@@ -8,7 +8,7 @@ linkTitle: Firmwares
   <div class="grid grid-cols-subgrid grid-flow-col col-span-3 divide-x divide-white/20 border-b-[1px] border-white/20">
     <div class="py-6 pr-6 flex flex-col col-span-1 gap-4">
       {{< netduma/button link="https://forum.netduma.com/topic/50710-new-r2-firmware-33280/" buttonColor="primary" text="v.3.3.280" >}}
-      02/01/2024
+      20/03/2023
     </div>
     <div class="col-span-4 p-6">   
       <ul class="mt-0 text-text-secondary">
@@ -28,7 +28,7 @@ linkTitle: Firmwares
   <div class="grid grid-cols-subgrid grid-flow-col col-span-4 divide-x divide-white/20 border-b-[1px] border-white/20">
     <div class="py-6 pr-6 flex flex-col col-span-1 gap-4">
       {{< netduma/button link="https://forum.netduma.com/topic/39522-new-r2-firmware-32453/" buttonColor="primary" text="v3.2.453" >}}
-      02/01/2024
+      09/06/2022
     </div>
     <div class="col-span-3 p-6">   
 			<div>Mobile View</div>
